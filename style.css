@@ -1,0 +1,41 @@
+html{
+    font-size: 20px;
+}
+body{
+    background-color: antiquewhite;
+}
+#box-button{
+    background-color: #91f0f0cf;
+    text-align: center;
+    color: black;
+    height: 5.8rem;
+    width: 5.8rem ;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px black;
+    font-size: 3rem;
+    margin: 0.2rem;
+}
+#game-container{
+    height: 20rem;
+    width: 20rem;
+    border-radius: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center
+}
+#reset-button{
+    height: 2.5rem;
+    width: 4.7rem ;
+    font-size: 1.2rem;
+    text-align: center;
+    background-color: #a87474;
+    border-radius: 5px;
+    margin: 0.5rem;
+}
+#result{
+    /* border: 2px solid black; */
+    width: max-content;
+    height: max-content;
+    font-size: 3.5rem;
+}
